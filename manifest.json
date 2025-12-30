@@ -1,1 +1,13 @@
 
+{
+  "manifest_version" : 3,
+  "name" : "Replace All Images",
+  "version" : "1.0",
+  "description" : "Replaces all images with an image of shrek.",
+  "content_scripts" : [
+    {
+      "matches" : ["<all_urls>"],
+      "js" : ["content.js"]
+    }
+  ]
+}
